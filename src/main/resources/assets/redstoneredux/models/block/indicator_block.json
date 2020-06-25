@@ -1,0 +1,25 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "indicator_face": "redstoneredux:blocks/indicator_face",
+    "indicator_side": "redstoneredux:blocks/indicator_side",
+    "indicator_front": "redstoneredux:blocks/indicator_front",
+    "indicator_top": "redstoneredux:blocks/indicator_top"
+  },
+
+  "elements": [
+    {
+      "name": "Cube",
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "north": { "texture": "#indicator_face", "uv": [ 0, 0, 16, 16 ] },
+        "east": { "texture": "#indicator_side", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#indicator_front", "uv": [ 0, 0, 16, 16 ] },
+        "west": { "texture": "#indicator_side", "uv": [ 16, 0, 0, 16 ]},
+        "up": { "texture": "#indicator_top", "uv": [ 0, 0, 16, 16 ],  "rotation": 180 },
+        "down": { "texture": "#indicator_top", "uv": [ 0, 0, 16, 16 ]}
+      }
+    }
+  ]
+}

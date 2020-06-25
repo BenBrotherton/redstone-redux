@@ -1,0 +1,6 @@
+{
+  "parent": "redstoneredux:block/indicator_block",
+  "textures": {
+    "indicator_front": "redstoneredux:blocks/indicator_front_5"
+  }
+}
